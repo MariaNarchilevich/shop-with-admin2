@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+/* PAGINATION */
+/* Variables */
+/* General */
+/* Header */
+/* Main */
+/* Course */
+/* Application */
+/* Moderator Application Panel */
+/* Moderator Application Handler */
+/* Course Management */
+/* Moderator Course Handler */
+/* Moderator Add Course */
+/* Footer */
+
+/* Variables */
+:root {
+  --header-height: 10vh;
+  --container-width: 80vw;
+}
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: table;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  display: table-row;
+  /* Чтобы ряд занимал всё оставшееся пространство, так как табличная разметка не позволит ему вытолкнуть header и footer */
+  height: 100%;
+}
+
+/* Main */
+main {
+  width: var(--container-width);
+  margin: 2vh auto;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-link:hover {
+  color: lightgray;
+}
+
+/* Course */
+.course {
+  margin: 1vh;
+  padding: 2vh;
+  border-radius: 1vh;
+  border: solid black 1px;
+}
+
+.course > * {
+  margin: 1vh 0;
+}
+
+/* Application */
+.application {
+  margin: 1vh;
+}
+
+.custom-btn {
+  padding: 1vh 2vh;
+  background-color: black;
+  border-radius: 1vh;
+  color: white;
+  font-weight: 700;
+}
+
+.custom-btn:hover {
+  cursor: pointer;
+}
+
+#application-comment {
+  width: 80%;
+  margin: 2vh 0;
+}
+
+/* Moderator Application Panel */
+li {
+  padding: 0.5vh 0;
+}
+
+.course-description .property-name,
+#application-comment > label,
+#checked-status > p {
+  font-weight: bold;
+}
+
+/* Moderator Application Handler */
+.course-description > p {
+  padding: 0.5vh 0;
+}
+
+#application-comment > textarea {
+  border: 0.1vh solid black;
+  border-radius: 0.25vh;
+}
+
+#checked-status {
+  padding: 2vh 0 0 0;
+}
+
+/* Course Management */
+#course-management-panel *,
+#courses-list * {
+margin: 1vh 0;
+}
+
+/* Moderator Course Handler */
+#management-btns {
+  display: flex;
+}
+
+#management-btns div {
+  margin-right: 1vh;
+}
+
+/* Moderator Add Course */
+.custom-form {
+  margin: 1vh 0;
+}
+
+.custom-form div {
+  margin: 1vh 0;
+}
+
+.custom-form input,
+.custom-form select,
+.custom-form textarea
+ {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.5vh;
+  padding: 1vh;
+}
+
+

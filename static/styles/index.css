@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  display: table;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  display: table-row;
+  /* Чтобы ряд занимал всё оставшееся пространство, так как табличная разметка не позволит ему вытолкнуть header и footer */
+  height: 100%;
+}

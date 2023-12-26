@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+/* PAGINATION */
+/* General */
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Variables */
+:root {
+  --container-width: 25vw;
+}
+
+/* Main */
+main {
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+#auth-container {
+  width: var(--container-width);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#auth-container > * {
+  margin: 1vh 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.auth-input {
+  margin: 1vh 0;
+}
+
+.auth-input * {
+  margin: 0.5vh 0;
+}
+
+.auth-input input {
+  width: 100%;
+  border: 1px solid black;
+  padding: 0.5vh 0.5vh;
+  border-radius: 0.5vh;
+}
+
+#submit-btn {
+  background-color: black;
+  padding: 1vh 2vh;
+  border-radius: 0.5vh;
+  color: white;
+  font-weight: 700;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+}
